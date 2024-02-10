@@ -14,6 +14,7 @@ RUN apt update -q \
     nano \
     curl \
     ros-humble-rviz2 \
+    ros-humble-joint-state-publisher-gui \
     && apt clean \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
